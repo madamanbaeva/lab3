@@ -8,3 +8,35 @@
     margin: 0;
     box-sizing: inherit;
 }
+
+body {
+    font-family: "Sixtyfour Convergence", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1e293b;
+    color: #ffffff;
+}
+
+.header__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header__nav {
+    display: flex;
+    gap: 24px;
+}
+
+.header__nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header__nav a:hover {
+    color: #38bdf8;
+}
