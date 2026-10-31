@@ -4,9 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <h1>Welcome to my site</h1>
+  <header class="header">
+    <div class="header__logo">My Site</div>
+    <nav class="header__nav">
+      <a href="#">Главная</a>
+      <a href="#">О нас</a>
+      <a href="#">Контакты</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <h1 class="hero__title">Добро пожаловать!</h1>
+      <p class="hero__text">Это моя страница для лабораторной работы по Git.</p>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <h2 class="card__title">Коммиты</h2>
+        <p class="card__text">Каждое изменение сохраняется в истории проекта.</p>
+      </article>
+      <article class="card">
+        <h2 class="card__title">Теги</h2>
+        <p class="card__text">Теги отмечают важные версии проекта.</p>
+      </article>
+      <article class="card">
+        <h2 class="card__title">Ветки</h2>
+        <p class="card__text">Ветки позволяют работать над задачами отдельно.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">© 2026 My Site. Лабораторная работа по Git.</p>
+    <nav class="footer__nav">
+      <a href="#">Главная</a>
+      <a href="#">О нас</a>
+      <a href="#">Контакты</a>
+    </nav>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
